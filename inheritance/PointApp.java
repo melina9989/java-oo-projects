@@ -33,7 +33,7 @@ public class PointApp {
         System.out.println(p2.getDistanceFromOrigin());
         doPrint(p3);
         System.out.println(p3.getDistanceFromOrigin());
-        System.out.println(PointUtil.distanceFromOrigin(p3));
+        PointUtil.distanceFromOrigin(p3);
         p3.printTypeOf();
     }
 
